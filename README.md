@@ -2,6 +2,8 @@
 
 A tool to help you try to find and book an appointment to get the covid-19 vaccination.
 
+If you need help finding your coordinated I recommend checking out https://www.latlong.net/
+
 ### install
 
 ```

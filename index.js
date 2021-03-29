@@ -7,6 +7,9 @@ const package = require("./package.json");
 
 program
   .version(package.version)
+  .description(
+    `a command line tool to help find a vaccination appointment at your local H-E-B\n------------------------------------------------------------\nplease use https://www.latlong.net/ to figure out your coordinates`
+  )
   .option("-lat, --latitude <latitude>", "float argument", parseFloat, 30.25005)
   .option(
     "-lon, --longitude <longitude>",
