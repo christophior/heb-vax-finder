@@ -12,8 +12,7 @@
     "axios": "^0.21.1",
     "commander": "^7.2.0",
     "openurl": "^1.1.1",
-    "ora": "^5.4.0",
-    "puppeteer-salesforce-library": "0.1.0-143"
+    "ora": "^5.4.0"
   },
   "bin": {
     "heb-vax-finder": "./index.js"
