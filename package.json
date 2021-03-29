@@ -1,0 +1,21 @@
+{
+  "name": "heb-vax-finder",
+  "version": "0.0.3",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "commander": "^7.2.0",
+    "openurl": "^1.1.1",
+    "ora": "^5.4.0",
+    "puppeteer-salesforce-library": "0.1.0-143"
+  },
+  "bin": {
+    "heb-vax-finder": "./index.js"
+  }
+}
