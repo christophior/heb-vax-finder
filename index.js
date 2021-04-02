@@ -13,8 +13,7 @@ program
 	)
 	.option("-lat, --latitude <latitude>", "float argument", parseFloat, 30.25005)
 	.option("-lon, --longitude <longitude>", "float argument", parseFloat, -97.859123)
-	.option("-d, --distance <distance>", "float argument", parseFloat, 50)
-	.option("-k, --keep-alive", "boolean", false);
+	.option("-d, --distance <distance>", "float argument", parseFloat, 50);
 
 program.parse(process.argv);
 const options = program.opts();
@@ -84,14 +83,8 @@ const watch = async () => {
 				"  "
 			)
 		);
-		open(url);
+		await open(url);
 		clearInterval(watcher);
-		if (options.keepAlive) {
-			const waiting = ora(`...waiting`).start();
-			setTimeout(() => {
-				waiting.stop();
-			}, 30000);
-		}
 	}
 };
 
