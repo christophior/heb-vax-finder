@@ -91,7 +91,7 @@ const watch = async () => {
         "  "
       )
     );
-    require("openurl").open(url);
+    require("openurl2").open(url);
     clearInterval(watcher);
   }
 };
