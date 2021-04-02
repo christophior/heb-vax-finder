@@ -11,7 +11,7 @@
   "dependencies": {
     "axios": "^0.21.1",
     "commander": "^7.2.0",
-    "open": "^8.0.2",
+    "open": "^7.4.2",
     "openurl": "^1.1.1",
     "openurl2": "^1.0.1",
     "ora": "^5.4.0"
